@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>MovieCo.com</title>
+
+    <style>
+        body {
+             /* background-image:url(https://images.pexels.com/photos/3942924/pexels-photo-3942924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: 2000px 2000px;
+
+        }
+
+        .container {
+            display: flex;
+            margin-bottom: -55px;
+            margin-top: -44px;
+            background-color: black;
+            /* height: 40px; */
+            /* position: sticky; */
+        }
+
+        .items {
+            margin: 36px;
+            padding: 9px;
+            font-family: 'Macondo', cursive;
+            font-size: 22px;
+            cursor: pointer;
+            height: 33px;
+            color: rgb(248, 169, 23);
+        }
+
+        .items:hover {
+            color: rgb(222, 203, 167);
+            text-shadow: 1px 1px white;
+            background-color: grey;
+            border-radius: 18px;
+
+        }
+
+        #home {
+            margin-left: 0px;
+        }
+
+        #hollywood {
+            margin-left: 0px;
+            padding-left: 0px;
+
+        }
+
+        #search {
+            margin-right: -34px;
+            padding-right: 3px;
+            margin-top: 29px;
+        }
+
+        #search img {
+            width: 29px;
+            height: 30px;
+        }
+
+        img {
+            width: 1400px;
+            height: 490px;
+            margin-top: 22px;
+            margin-left: 40px;
+
+            border-radius: 20px;
+        }
+
+        img:hover {
+            box-shadow: 2px 2px 4px 4px grey;
+            width: 1440px;
+            height: 520px;
+
+        }
+
+        #top {
+            width: 40px;
+            height: 50px;
+            margin-top: -11px;
+
+        }
+
+        #right {
+            width: 60px;
+            height: 70px;
+            margin-top: -11px;
+            margin-left: -45px;
+
+        }
+
+        .home {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+
+
+
+        .home img {
+            width: 300px;
+            height: 450px;
+            margin: 3px;
+            margin-top: -61px;
+            padding: 24px;
+
+        }
+
+        .home img:hover {
+            /* position: relative; */
+            width: 330px;
+            height: 490px;
+            box-shadow: 2px 2px 2px 2px rgb(203, 201, 80);
+
+
+        }
+
+
+
+        h3 {
+            text-align: left;
+            padding-left: 15px;
+            color: white;
+            font-size: 30px;
+            padding-top: 10px;
+
+            font-family: 'Macondo', cursive;
+
+        }
+
+        h4 {
+            display: flex;
+            flex-direction: row;
+            margin-left: 130px;
+            text-decoration: none;
+            color: rgb(205 186 149);
+            font-size: 22px;
+
+            margin-top: 4px;
+
+        }
+
+         #subscribe button {
+            /* background-color: #903636; */
+            border-radius: 8px;
+            height: 30px;
+            background-color: red;
+            width: 120px;
+            font-size: 22px;
+            margin-top: 7px;
+            margin-left: -50px;
+            font-family:
+
+
+
+
+        } 
+        
+
+        #search img {
+            width: 20px;
+            height: 20px;
+
+        }
+        #login img{
+                 margin-left: -78px;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        .ok {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="items" id="Home"><img id="top"
+                src="https://cdn.vectorstock.com/i/1000x1000/15/60/reel-of-film-sign-orange-icon-on-black-background-vector-13391560.webp"
+                alt="">
+        </div>
+        <div class="items" id="Home">Home</div>
+        <div class="items" id="Tollywood">Tollywood</div>
+        <div class="items" id="Bollywood">Bollywood</div>
+        <div class="items" id="Hollywood">Hollywood</div>
+        <div class="items" id="search"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdb4r8bEeGHv44ENLSTP1f8Rt3iY7cR3qgSQ&usqp=CAU"
+                alt="error"> </div>
+        <div class="items"><input type="text" placeholder="search a movie"></div>
+        <div class="items" id="subscribe"><button>subscribe</button></div>
+        <div class="items" id="login "> <img id="right"
+                src="https://cdn.vectorstock.com/i/1000x1000/94/38/avatar-flat-icon-on-black-background-black-style-vector-25959438.webp"
+                alt=""> </div>
+    </div>
+    <a href="https://downsrips.xyz/?p=33194" target="_blank">
+        <div><img
+                src="https://telanganatoday.com/wp-content/uploads/2022/04/IMAX-unveils-Yashs-dhamakedaar-fierce-look-in-K.G.F.-Chapter-2-poster.jpg"
+                alt="reload"></div>
+    </a>
+
+
+
+    <div>
+        <h3>Recent Releases</h3>
+    </div>
+    <div class="home">
+
+        <!-- <div><h3>Recent Releases</h3></div> -->
+
+        <a id="bah" href="https://www.hotstar.com/in/movies/baahubali2-the-conclusion/1770016137/watch?utm_source=gwa"
+            target="_blank">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/9/93/Baahubali_2_The_Conclusion_poster.jpg" alt="">
+                <h4>Bhahubali-2</h4>
+            </div>
+        </a>
+        <a href="" target="_blank">
+            <div><img src="https://wallpaperaccess.com/full/5153364.jpg" alt="">
+                <h4>Puspha</h4>
+            </div>
+        </a>
+        <a href="" target="_blank">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/1/17/Sarkaru_Vaari_Paata.jpg" alt="">
+                <h4>Sarkaruvari paata</h4>
+            </div>
+        </a>
+        <a href="https://www.hotstar.com/in/movies/akhanda/1260079644/watch?utm_source=gwa" target="_blank">
+            <div><img
+                    src="https://m.media-amazon.com/images/M/MV5BY2Y0YTlkZmMtZDMwZi00MDQwLThmYmUtZjQzMjRlMmQzMTNiXkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_.jpg"
+                    alt="">
+                <h4>Akhanda</h4>
+            </div>
+        </a>
+    </div>
+
+    <div>
+        <h3>Top Rated Movies</h3>
+    </div>
+    <div class="home">
+        <a href="" target="_blank">
+            <div><img
+                    src="https://occ-0-1167-300.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZbfPZ3lc71kHF4lybzJf5WgC0tYDQI8qxNBlMuqdgPQ1p_0D8K2KQagnU1VQdyiCeOdajH6L5TluX17Sbstc22dZaJ8.jpg"
+                    alt="">
+                <h4>Shyam singha roy</h4>
+            </div>
+        </a>
+        <a href="https://www.hotstar.com/in/movies/rangasthalam/1260009838/watch?utm_source=gwa" target="_blank">
+            <div><img
+                    src="https://m.media-amazon.com/images/M/MV5BMjQ1MjFkN2EtOTU4NS00NDkzLThhNzItODkzYWNjZDMxZjE0XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_.jpg"
+                    alt="">
+                <h4>Rangastalam</h4>
+            </div>
+        </a>
+        <a href="" target="_blank">
+            <div><img
+                    src="https://m.media-amazon.com/images/M/MV5BOTE1ZDA3NDEtMDZlNS00MjlkLWFmNzAtYzVmYWJmMzEwMDVlXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
+                    alt="">
+                <h4>Geetha Govindam</h4>
+            </div>
+        </a>
+        <a href="https://www.zee5.com/movies/details/geeta-govinda/0-0-105149?utm_source=google_web&utm_medium=watchaction&utm_campaign=google_watch&utm_content=geeta_govinda"
+            target="_blank">
+            <div><img
+                    src="https://m.media-amazon.com/images/M/MV5BYzUxZDIyYmMtNGNhYi00NDU5LWE0MGYtZDI3ODIzOWI1NjE3XkEyXkFqcGdeQXVyMTQ4ODU3Mjc1._V1_.jpg"
+                    alt="">
+                <h4>Dj Tillu</h4>
+            </div>
+        </a>
+
+        <div class="ok" id="number1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, eveniet!</div>
+        <div class="ok" id="number2"></div>
+        <div class="ok" id="number3"></div>
+        <div class="ok" id="number4"></div>
+        <div class="ok" id="number5"></div>
+        <div class="ok" id="number6"></div>
+        <div class="ok" id="number7"></div>
+        <div class="ok" id="number8"></div>
+
+
+    </div>
+
+    <div>
+        <h3>Movieco Originals</h3>
+    </div>
+    <div class="home">
+
+        <!-- <div><h3>Recent Releases</h3></div> -->
+
+        <a id="bah" href="https://www.hotstar.com/in/movies/baahubali2-the-conclusion/1770016137/watch?utm_source=gwa"
+            target="_blank">
+            <div><img src="https://resizing.flixster.com/fLiPKJwqtPJZ1ZFSwYl4-YoYaBQ=/ems.ZW1zLXByZC1hc3NldHMvdHZzZWFzb24vUlRUVjEwMTMyOTMud2VicA==" alt="">
+                <h4>Money Heist</h4>
+            </div>
+        </a>
+        <a href="" target="_blank">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg" alt="">
+                <h4>Dangal</h4>
+            </div>
+        </a>
+        <a href="" target="_blank">
+            <div><img src="https://m.media-amazon.com/images/M/MV5BNTY2NDIwNWEtODRmNy00MTAxLTkwYjktY2UyZjlhNGY2YTI2XkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_.jpg" alt="">
+                <h4>Chichhore</h4>
+            </div>
+        </a>
+        <a href="https://www.hotstar.com/in/movies/akhanda/1260079644/watch?utm_source=gwa" target="_blank">
+            <div><img
+                    src="https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg"
+                    alt="">
+                <h4>BlackPanther</h4>
+            </div>
+        </a>
+    </div>
+
+
+
+    <footer>
+        <div>copyright &copy All Rights reserved </div>
+    </footer>
+
+</body>
+
+</html>
